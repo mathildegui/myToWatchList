@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "845249063645",
+    "firebase_url": "https://thetowatch.firebaseio.com",
+    "project_id": "thetowatch",
+    "storage_bucket": "thetowatch.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:845249063645:android:ffd8ab1fa35cdb69",
+        "android_client_info": {
+          "package_name": "com.thetowatch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "845249063645-8jebij6icgt6gq92um7qrd6c79upnngh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZBEDgqy9svT0DT8rmjTAz881UTsVhxKk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "845249063645-8jebij6icgt6gq92um7qrd6c79upnngh.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "845249063645-h9h00a85h01qdn12sb09dgo52ge74dru.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.example.TheToWatch"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -39,7 +39,7 @@ class Search extends Component {
         }
     }
 
-    _searchTextInputChanged(text: String) {
+    _searchTextInputChanged(text) {
         this.searchedText = text
     }
 

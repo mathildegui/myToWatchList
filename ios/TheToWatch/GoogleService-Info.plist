@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>845249063645-h9h00a85h01qdn12sb09dgo52ge74dru.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.845249063645-h9h00a85h01qdn12sb09dgo52ge74dru</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCQnCEcUCJxtUMfwa1jY0yNlQ7AMUznYYg</string>
+	<key>GCM_SENDER_ID</key>
+	<string>845249063645</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>org.reactjs.native.example.TheToWatch</string>
+	<key>PROJECT_ID</key>
+	<string>thetowatch</string>
+	<key>STORAGE_BUCKET</key>
+	<string>thetowatch.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:845249063645:ios:b664cbe3ea177346</string>
+	<key>DATABASE_URL</key>
+	<string>https://thetowatch.firebaseio.com</string>
+</dict>
+</plist>

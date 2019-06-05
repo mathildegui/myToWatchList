@@ -10,16 +10,17 @@
     "react": "16.8.3",
     "react-native": "0.59.4",
     "react-native-elements": "1.1.0",
+    "react-native-firebase": "5.4.0",
     "react-native-gesture-handler": "1.1.0",
     "react-native-image-picker": "0.28.1",
     "react-native-vector-icons": "6.4.2",
     "react-navigation": "3.8.1",
-    "react-redux": "^5.1.0",
-    "redux": "^4.0.1",
-    "redux-persist": "^5.10.0"
+    "react-redux": "5.1.1",
+    "redux": "4.0.1",
+    "redux-persist": "5.10.0"
   },
   "devDependencies": {
-    "jest": "^24.7.1",
+    "jest": "24.7.1",
     "react-test-renderer": "16.8.3"
   },
   "jest": {

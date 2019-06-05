@@ -8,6 +8,7 @@ import Search from './screens/search';
 import FilmsDetails from "./screens/filmsDetails/filmsDetails";
 import News from "./screens/newReleases/newReleases";
 import Seen from "./screens/seen/seen";
+import Firebase from "./screens/firebase/firebase";
 
 const SearchStackNavigator = createStackNavigator({
     Search: {
@@ -57,6 +58,15 @@ const SeenStackNavigator = createStackNavigator({
     }
 });
 
+const FirebaseStackNavigator = createStackNavigator({
+    Firebase: {
+        screen: Firebase,
+        navigationOptions: {
+            title: 'Fire test'
+        }
+    }
+});
+
 const MoviesTabNavigator = createBottomTabNavigator({
     Search: {
         screen: SearchStackNavigator,
@@ -83,6 +93,13 @@ const MoviesTabNavigator = createBottomTabNavigator({
         screen: SeenStackNavigator,
         navigationOptions: {
             tabBarLabel: 'Already seen',
+            tabBarIcon: ({tintColor}) => <Icon name="visibility" size={28} color={tintColor}/>
+        }
+    },
+    Firebase: {
+        screen: FirebaseStackNavigator,
+        navigationOptions: {
+            tabBarLabel: 'Fire test',
             tabBarIcon: ({tintColor}) => <Icon name="visibility" size={28} color={tintColor}/>
         }
     }
