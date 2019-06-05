@@ -3,6 +3,7 @@ package com.thetowatch;
 import android.app.Application;
 
 import io.invertase.firebase.RNFirebasePackage;
+import io.invertase.firebase.firestore.RNFirebaseFirestorePackage;
 import com.facebook.react.ReactApplication;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
@@ -30,6 +31,7 @@ public class MainApplication extends Application implements ReactApplication {
           new MainReactPackage(),
           new RNGestureHandlerPackage(),
           new RNFirebasePackage(),
+          new RNFirebaseFirestorePackage(),
           new ImagePickerPackage(),
           new VectorIconsPackage()
       );

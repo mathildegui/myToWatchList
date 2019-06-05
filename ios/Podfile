@@ -6,7 +6,8 @@ target 'TheToWatch' do
   # use_frameworks!
 
   # Pods for TheToWatch
-  pod 'Firebase/Core'
+  pod 'Firebase/Core', '~> 5.20.1'
+  pod 'Firebase/Firestore', '~> 5.20.1'
 
   target 'TheToWatchTests' do
     inherit! :search_paths
